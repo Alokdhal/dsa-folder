@@ -46,8 +46,7 @@ int main()
     vector<int> pathY = path(y);
 
     int lca;
-    for (int i = 0; i < n - 1
-    ; i++)
+    for (int i = 0; i < n - 1; i++)
     {
         if (pathX[i] != pathY[i])
             break;
